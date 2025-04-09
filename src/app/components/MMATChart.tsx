@@ -18,9 +18,9 @@ interface DataEntry {
 
 export default function MMATChart({ models, chartType }: { models: Model[], chartType: 'bar' | 'line' | 'radar' }) {
   const principles = [
-    { key: 'satNaam', fullName: 'Truth is Name (Sat Naam)' },
-    { key: 'nirbhau', fullName: 'Without Fear (Nirbhau)' },
-    { key: 'akaalMoorat', fullName: 'Timeless Image (Akaal Moorat)' },
+    { key: 'satNaam', fullName: 'Truth (Sat Naam)' },
+    { key: 'nirbhau', fullName: 'Fearlessness (Nirbhau)' },
+    { key: 'akaalMoorat', fullName: 'Timelessness (Akaal Moorat)' },
   ];
 
   const data: DataEntry[] = principles.map(principle => {

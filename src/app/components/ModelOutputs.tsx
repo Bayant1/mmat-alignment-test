@@ -26,7 +26,7 @@ export default function ModelOutputs({ models }: { models: Model[] }) {
           newDisplayed[index] = model.response.slice(0, i);
           setDisplayedResponses([...newDisplayed]);
           i++;
-          const delay = Math.random() * (120 - 60) + 60;
+          const delay = Math.random() * (60 - 30) + 30;
           timeouts.push(setTimeout(type, delay));
         }
       };

@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "MMAT Alignment Test Demo",
+  title: "MMAT Alignment Test",
   description: "Compare AI models based on spiritual alignment",
 };
 
