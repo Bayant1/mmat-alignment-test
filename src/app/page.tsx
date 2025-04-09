@@ -70,7 +70,7 @@ export default function Home() {
             {/* ✅ Result Summary Box */}
     {(() => {
       const ekon = modelArray.find((model) => model.name.toLowerCase() === 'ekonai');
-      const scores = ekon?.scores || {};
+      const scores = ekon?.scores || { satNaam: 0, nirbhau: 0, akaalMoorat: 0 };
       const meetsBenchmark =
         scores.satNaam > 80 && scores.nirbhau > 80 && scores.akaalMoorat > 80;
 
